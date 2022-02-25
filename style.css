@@ -1,0 +1,61 @@
+body {
+  background-color: #121213;
+}
+
+#app {
+  font-family: Avenir, Helvetica, Arial, sans-serif;
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+}
+
+#word {
+  max-width: 15rem;
+  background-color: white;
+  outline: 0;
+  font-size: 1.5em;
+  margin: 2rem auto;
+  border: none;
+  box-shadow: 0px 0px 5px 0px grey;
+}
+
+.grid {
+  display: flex;
+  margin: auto;
+  flex-direction: column;
+  margin-top: 1rem;
+}
+
+.line {
+  display: flex;
+}
+
+.case {
+  width: 4rem;
+  height: 4rem;
+  line-height: 4rem;
+  border: solid 0.1rem #3a3a3c;
+  margin: 0.2rem;
+  color: white;
+  text-align: center;
+  font-weight: bold;
+  font-size: 2.5rem;
+}
+
+.correct {
+  background-color: #538d4e;
+}
+
+.absent {
+  background-color: #3a3a3c;
+}
+
+.present {
+  background-color: #b59f3b;
+}
+
+p {
+  color: white;
+  text-align: center;
+  font-size: larger;
+}
